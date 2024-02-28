@@ -8,7 +8,7 @@ case $choice in
 *) exit ;;
 esac
 
-curl -s https://raw.githubusercontent.com/meterup/awdl_wifi_scripts/main/disable_awdl.sh > /tmp/disable_awdl.sh
+curl -s https://raw.githubusercontent.com/prestolabs/helpdesk/main/mac/awdl_wifi_scripts/awdl.sh > /tmp/disable_awdl.sh
 chmod u+x /tmp/disable_awdl.sh
 
 sudo bash /tmp/disable_awdl.sh > /dev/null &

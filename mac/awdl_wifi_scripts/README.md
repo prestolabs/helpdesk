@@ -15,9 +15,9 @@ in order to improve WiFi connectivity for Apple M1/M2 MacBooks.
 
 1. On your Mac, open the Terminal app.
 2. Run: 
-```curl -sL https://www.meter.com/awdl-daemon.sh | bash```
+```curl -sL https://raw.githubusercontent.com/prestolabs/helpdesk/main/mac/awdl_wifi_scripts/awdl-daemon.sh | bash```
 
 ## Remove the scripts and renable awdl0 interface
 ```
-curl -s https://raw.githubusercontent.com/meterup/awdl_wifi_scripts/main/cleanup-and-reenable-awdl.sh | bash &> /dev/null
+curl -s https://raw.githubusercontent.com/prestolabs/helpdesk/main/mac/awdl_wifi_scripts/cleanup-and-reenable-awdl.sh | bash &> /dev/null
 ``` 
